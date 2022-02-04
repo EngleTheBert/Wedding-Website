@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Cameron Englebert and Brittany Humphrey's Wedding</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</header>
+<nav>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Menu
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-content">
+                <a href="home.html">The Event</a>
+                <a href="details.html">The Details</a>
+                <a href="travel.html">Travel</a>
+                <a href="rsvp.html">RSVP</a>
+                <a href="registry.html">Registry</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<body>
+      <form id="myForm" name="basic-rsvp-form" accept-charset="utf-8" action="submit-form" method="POST">
+        <fieldset id="myForm-inputs">
+          <label for="full-name">Full Name</label>
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <label for="attending">Will you Attend?</label>
+          <select name="attending" id="attending" required="">
+              <option value="" selected="" disabled="">Select</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+          </select>
+          <label for="plus">And with how many guests?</label>
+          <select name="plus" id="plus" required="">
+              <option value="0" selected="">0</option>
+              <option value="1">1</option>
+          </select>
+          <label for="diets">Dietary Concerns</label>
+          <select name="diets" id='diets' required="">
+              <option value="None">None</option>
+              <option value="Gluten Free">Gluten Free</option>
+              <option value="Vegan">Vegan</option>
+              <option value="Vegetarian">Vegetarian</option>
+          </select>
+          <label for="children">Bringing Children under 3</label>
+          <select name='children' id='children' required="">
+              <option value="" selected="" disabled="">Select</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+          </select>
+          <label for="song">Song Request</label>
+          <input type="text" name='song' id="song" placeholder="Song by Artist">
+          <input type="hidden" name="_subject" id="email-subject" value="RSVP">
+        </fieldset>
+        <input type="submit" value="RSVP">
+      </form>
+</body>
+
+<footer>
+
+</footer>
+</html>

@@ -1,0 +1,202 @@
+body {
+    background-color: #ffe6e8;
+    color: #361108;
+    text-align: center;
+    font-family: Calibri;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+h2 {
+    text-transform: uppercase;
+}
+#details {
+    text-align: center;
+  }
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #ffe6e8;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #361108;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+ 
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #361108;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #ffe6e8;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  #myForm input,
+  #myForm select,
+  #myForm textarea,
+  #myForm fieldset,
+  #myForm optgroup,
+  #myForm label,
+  #myForm #card-element:disabled {
+    font-family: inherit;
+    font-size: 100%;
+    color: inherit;
+    border: none;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  #myForm label,
+  #myForm legend,
+  #myForm ::placeholder {
+    font-size: .825rem;
+    margin-bottom: .5rem;
+    padding-top: .2rem;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  /* border, padding, margin, width */
+  #myForm input,
+  #myForm select,
+  #myForm textarea,
+  #myForm #card-element {
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,0.9);
+    padding: .75em 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #myForm input:focus,
+  #myForm select:focus,
+  #myForm textarea:focus {
+    background-color: white;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: gray;
+    outline-offset: -1px;
+  }
+
+  #myForm [type="text"],
+  #myForm [type="email"] {
+    width: 100%;
+  }
+
+  #myForm [type="button"],
+  #myForm [type="submit"],
+  #myForm [type="reset"] {
+    width: auto;
+    cursor: pointer;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+  }
+
+  #myForm [type="button"]:focus,
+  #myForm [type="submit"]:focus,
+  #myForm [type="reset"]:focus {
+    outline: none;
+  }
+
+  #myForm [type="submit"],
+  #myForm [type="reset"] {
+    margin-bottom: 0;
+  }
+
+  #myForm select {
+    text-transform: none;
+  }
+  
+  #myForm [type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+    display: inline-block;
+    width: auto;
+    margin: 0 .5em 0 0 !important;
+  }
+  
+  #myForm [type="radio"] {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+    appearance: radio;
+  }
+  
+  /* address, locale */
+  #myForm fieldset.locale input[name="city"],
+  #myForm fieldset.locale select[name="state"],
+  #myForm fieldset.locale input[name="postal-code"] {
+    display: inline;
+  }
+  #myForm fieldset.locale input[name="city"] {
+    width: 52%;
+  }
+  #myForm fieldset.locale select[name="state"],
+  #myForm fieldset.locale input[name="postal-code"] {
+    width: 20%;
+  }
+  #myForm fieldset.locale input[name="city"],
+  #myForm fieldset.locale select[name="state"] {
+    margin-right: 3%;
+  }
+ 
